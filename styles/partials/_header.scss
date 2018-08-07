@@ -1,0 +1,36 @@
+.header{
+    background-image: url(../assets/image-1.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: bottom;
+    min-height: 100vh;
+    color: #ffffff;
+}
+
+.headerFlex{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 150px;
+    align-items: center;
+}
+
+.nav--header{
+    flex-basis: 550px;
+}
+
+.nav_ul--header{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 100%;
+    align-items: center;
+}
+
+.header2{
+    flex-direction: column;
+    min-height: 500px;
+    justify-content: center;
+}
+
+.button--header{
+    max-width: 150px;
+}

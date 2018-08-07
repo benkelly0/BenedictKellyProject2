@@ -34,8 +34,67 @@ body{
 	font-size: 1.6rem;
 }
 
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
 .wrapper{
 	max-width: 1080px;
 	width: 95%;
 	margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.heading1,
+.heading2,
+.heading3{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+.heading1{
+    font-size: 5.8rem;
+}
+
+.heading2{
+    font-size: 4rem;
+}
+
+.heading3{
+    font-size: 2.6rem;
+}
+
+.heading4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+}
+
+.nav_ul_li_link,
+.button{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 5px;
+}
+
+.button--red{
+    background: #da331d;
+}
+
+.button--black{
+    background: #2a2a2a;
 }
