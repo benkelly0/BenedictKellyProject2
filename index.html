@@ -120,7 +120,7 @@
                 <figure class="reviewsContent__fig">
                     <img class="reviewsContent__fig__img" src="assets/image-8.jpeg" alt="Photo J. Michels looking into the distance">
                     <figcaption class="reviewsContent__fig__cap">
-                        <p class="reviewsContent__fig__cap__text text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <p class="reviewsContent__fig__cap__text text text--reviews">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         Ut enim ad minim</p>
                         <p class="reviewsContent__fig__cap__text text text--credit"><em>~ J. Michels ~</em></p>
                     </figcaption>
@@ -133,13 +133,24 @@
             <div class="eventsContent flex">
                 <figure class="eventsContent__fig">
                     <img class="eventsContent__fig__img" src="assets/image-9.jpeg" alt="Photo of a burger and chips">
+                    <figcaption class="eventsContent__fig__cap">
+                        <h2 class="eventsContent__fig__cap__heading heading2">Sample event</h2>
+                        <p class="eventsContent__fig__cap__text text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    </figcaption>
                 </figure>
-                <div class="eventsContent__text">
-                    <h2 class="eventsContent__text__heading heading2">Sample event</h2>
-                    <p class="eventsContent__text__text text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                </div>
+                <figure class="eventsContent__fig">
+                    <img class="eventsContent__fig__img" src="assets/image-10.jpeg" alt="Photo of a burger and chips">
+                    <figcaption class="eventsContent__fig__cap">
+                        <h2 class="eventsContent__fig__cap__heading heading2">Sample event</h2>
+                        <p class="eventsContent__fig__cap__text text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    </figcaption>
+                </figure>
                 <figure class="eventsContent__fig">
                     <img class="eventsContent__fig__img" src="assets/image-11.jpeg" alt="Photo of the kitchen while staff are working">
+                    <figcaption class="eventsContent__fig__cap">
+                        <h2 class="eventsContent__fig__cap__heading heading2">Sample event</h2>
+                        <p class="eventsContent__fig__cap__text text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    </figcaption>
                 </figure>
             </div>
         </section>
@@ -147,10 +158,10 @@
         <section class="section section--form">
             <div class="wrapper formContent">
                 <h2 class="formContent__heading heading2">ask a question</h2>
-                <form class="formContent__form" action="">
+                <form class="formContent__form" action="http://www.focuspocus.io/magic/cb7ec415798f5206a9be94699596ce6d" method="POST" name="question">
                     <div class="formContent__form__input">
-                        <label class="formContent__form__input__label" for=""></label>
-                        <input class="formContent__form__input__input" type="text">
+                        <label class="formContent__form__input__label visuallyhidden" for="question">Your Message</label>
+                        <input class="formContent__form__input__input" type="text" name="question" id="question" placeholder="Your Message">
                     </div>
                     <div class="formContent__form__button">
                         <button class="formContent__form__button__button button button--red">Send</button>

@@ -51,6 +51,7 @@
 
 .section--services{
     text-align: center;
+    padding-bottom: 100px;
 }
 
 .servicesContent{
@@ -74,5 +75,82 @@
 
 .servicesContent__fig__img{
     display: block;
+}
+
+.section--reviews{
+    text-align: center;
+    background: #2a2a2a;
+    color: #d2cfcf;
+    padding-bottom: 40px;
+}
+
+.reviewsContent__fig__cap{
+    padding: 50px 0;
+}
+
+.text--reviews{
+    padding: 0 20%;
+}
+
+.text--credit{
+    padding: 15px 0;
+}
+
+.section--events{
+    text-align: center;
+}
+
+.eventsContent__fig{
+    position: relative;
+}
+
+.eventsContent__fig:hover .eventsContent__fig__cap{
+    display: block;
+}
+
+.eventsContent__fig__img{
+    display: block;
+    height: 100%;
+}
+
+.eventsContent__fig__cap{
+    position: absolute;
+    display: none;
+    background-color:  rgba(42, 42, 42, 0.7);
+    padding: 2% 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.eventsContent__fig__cap__heading{
+    padding: 5% 0;
+    margin: 0 10%;
+    color: #ffffff;
+    border-bottom: 2px solid #d2cfcf;
+}
+
+.eventsContent__fig__cap__text{
+    font-size: 1.8rem;
+    padding: 5% 5%;
+    color: #ffffff;
+}
+
+.section--form{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.formContent__heading{
+    padding-bottom: 30px;
+}
+
+.formContent__form__input__input{
+    width: 50%;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #2a2a2a;
+    margin: 30px 0;
 }
 
