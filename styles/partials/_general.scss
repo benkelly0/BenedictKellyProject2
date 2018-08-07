@@ -76,7 +76,7 @@ a{
     font-size: 2rem;
 }
 
-.nav_ul_li_link,
+.nav__ul__li__link,
 .button{
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
@@ -97,4 +97,13 @@ a{
 
 .button--black{
     background: #2a2a2a;
+}
+
+.text{
+    font-size: 1.8rem;
+}
+
+.text--large{
+    font-size: 2.4rem;
+    line-height: 40px;
 }

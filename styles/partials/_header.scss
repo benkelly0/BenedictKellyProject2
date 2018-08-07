@@ -18,7 +18,7 @@
     flex-basis: 550px;
 }
 
-.nav_ul--header{
+.nav__ul--header{
     flex-wrap: wrap;
     justify-content: space-between;
     min-height: 100%;
@@ -31,6 +31,11 @@
     justify-content: center;
 }
 
+.heading1--header{
+    margin-bottom: 10px;
+}
+
 .button--header{
     max-width: 150px;
+    margin-top: 20px;
 }

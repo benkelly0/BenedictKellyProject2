@@ -1,0 +1,44 @@
+.heading2--about{
+    text-align: center;
+    padding: 80px 0;
+}
+
+.aboutContent{
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.aboutContent1{
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    justify-content: space-around;
+}
+
+.aboutContent1__fig{
+    flex-basis: 140px;
+    margin: 30px;
+    text-align: center;
+}
+
+.aboutContent1__fig__img{
+    height: 120px;
+}
+
+.aboutContent1__fig__cap__heading{
+    padding-top: 15px;
+}
+
+.aboutContent2{
+    flex-basis: 50%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.aboutContent2__heading{
+    padding: 30px 0;
+}
+
+.aboutContent2__text{
+    padding-bottom: 40px;
+}
+

@@ -209,7 +209,7 @@ a {
   font-family: 'Raleway', sans-serif;
   font-size: 2rem; }
 
-.nav_ul_li_link,
+.nav__ul__li__link,
 .button {
   color: #ffffff;
   font-family: 'Raleway', sans-serif;
@@ -227,6 +227,13 @@ a {
 
 .button--black {
   background: #2a2a2a; }
+
+.text {
+  font-size: 1.8rem; }
+
+.text--large {
+  font-size: 2.4rem;
+  line-height: 40px; }
 
 .header {
   background-image: url(../assets/image-1.jpeg);
@@ -251,7 +258,7 @@ a {
   -ms-flex-preferred-size: 550px;
   flex-basis: 550px; }
 
-.nav_ul--header {
+.nav__ul--header {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-pack: justify;
@@ -272,5 +279,50 @@ a {
   -ms-flex-pack: center;
   justify-content: center; }
 
+.heading1--header {
+  margin-bottom: 10px; }
+
 .button--header {
-  max-width: 150px; }
+  max-width: 150px;
+  margin-top: 20px; }
+
+.heading2--about {
+  text-align: center;
+  padding: 80px 0; }
+
+.aboutContent {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 80px; }
+
+.aboutContent1 {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+
+.aboutContent1__fig {
+  -ms-flex-preferred-size: 140px;
+  flex-basis: 140px;
+  margin: 30px;
+  text-align: center; }
+
+.aboutContent1__fig__img {
+  height: 120px; }
+
+.aboutContent1__fig__cap__heading {
+  padding-top: 15px; }
+
+.aboutContent2 {
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  text-align: center;
+  padding-top: 50px; }
+
+.aboutContent2__heading {
+  padding: 30px 0; }
+
+.aboutContent2__text {
+  padding-bottom: 40px; }
