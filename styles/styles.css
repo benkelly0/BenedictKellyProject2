@@ -144,3 +144,37 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   clip-path: inset(100%);
   clip: rect(0 0 0);
   overflow: hidden; }
+
+.skiplink {
+  position: absolute;
+  left: -1000px;
+  top: 5px;
+  z-index: 999;
+  background: white;
+  color: black; }
+
+.skiplink:focus {
+  left: 0; }
+
+img {
+  max-width: 100%; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+figure {
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Lora', serif; }
+
+body {
+  font-size: 1.6rem; }
+
+.wrapper {
+  max-width: 1080px;
+  width: 95%;
+  margin: 0 auto; }
