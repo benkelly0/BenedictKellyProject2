@@ -231,7 +231,8 @@ a {
   margin: 80px 0; }
 
 .text {
-  font-size: 1.8rem; }
+  font-size: 1.8rem;
+  line-height: 30px; }
 
 .text--large {
   font-size: 2.4rem;
@@ -333,3 +334,31 @@ a {
 
 .welcomeContent {
   text-align: center; }
+
+.section--services {
+  text-align: center; }
+
+.servicesContent {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.servicesContent__text,
+.servicesContent__fig {
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%; }
+
+.servicesContent__text {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 7%; }
+
+.servicesContent__text__heading {
+  padding-bottom: 30px; }
+
+.servicesContent__fig__img {
+  display: block; }

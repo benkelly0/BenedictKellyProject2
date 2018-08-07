@@ -48,3 +48,31 @@
 .welcomeContent{
     text-align: center;
 }
+
+.section--services{
+    text-align: center;
+}
+
+.servicesContent{
+    flex-wrap: wrap;
+}
+
+.servicesContent__text,
+.servicesContent__fig{
+    flex-basis: 50%;
+}
+
+.servicesContent__text{
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 7%;
+}
+
+.servicesContent__text__heading{
+    padding-bottom: 30px;
+}
+
+.servicesContent__fig__img{
+    display: block;
+}
+
