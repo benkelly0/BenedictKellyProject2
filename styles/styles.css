@@ -664,6 +664,7 @@ a {
   padding: 5px 0 5px 15px;
   color: #ffffff;
   height: 34px;
+  border-radius: none;
   -webkit-transition: .3s;
   -o-transition: .3s;
   transition: .3s; }
