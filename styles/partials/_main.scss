@@ -114,6 +114,7 @@
 
 .flickity-button{
     background: none;
+    transition: .3s;
 }
 
 .flickity-button:hover{
@@ -184,10 +185,11 @@
     border: none;
     border-bottom: 1px solid #2a2a2a;
     margin: 30px 0;
+    transition: .3s;
 }
 
 .formContent__form__input__input:focus{
-    border-bottom: 2px solid #2a2a2a;
+    border-bottom: 2px solid #da331d;
 }
 
 .section--icons{

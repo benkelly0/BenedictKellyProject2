@@ -46,6 +46,10 @@
     color: #ffffff;
 }
 
+.footer1Content__p__link:hover{
+    color: #da331d;
+}
+
 .footer1Content__form{
     margin-top: 20px;
 }
@@ -59,20 +63,22 @@
     padding: 5px 0 5px 15px;
     color: #ffffff;
     height: 34px;
+    transition: .3s;
 }
 
 .footer1Content__form__input:focus{
-    border-top: 2px solid #ffffff;
+    border-top: 2px solid #da331d;
     border-right: none;
-    border-bottom: 2px solid #ffffff;
-    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #da331d;
+    border-left: 2px solid #da331d;
 }
 
 .footer1Content__form__input:focus + .footer1Content__form__button{
-    border-top: 2px solid #ffffff;
-    border-right: 2px solid #ffffff;
-    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #da331d;
+    border-right: 2px solid #da331d;
+    border-bottom: 2px solid #da331d;
     border-left: none;
+    color: #da331d;
 }
 
 .footer1Content__form__button{
@@ -85,6 +91,7 @@
     height: 34px;
     padding-right: 5px;
     margin-left: -5px;
+    transition: .3s;
 }
 
 .footer1Content__pics{
