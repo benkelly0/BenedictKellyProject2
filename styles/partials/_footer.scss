@@ -18,6 +18,11 @@
     font-size: 2.5rem;
     padding: 50%;
     color:  #848484;
+    transition: .3s;
+}
+
+.navIcons__ul__li__link:hover{
+    color: #da331d;
 }
 
 .section--footer1{
@@ -54,6 +59,20 @@
     padding: 5px 0 5px 15px;
     color: #ffffff;
     height: 34px;
+}
+
+.footer1Content__form__input:focus{
+    border-top: 2px solid #ffffff;
+    border-right: none;
+    border-bottom: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+}
+
+.footer1Content__form__input:focus + .footer1Content__form__button{
+    border-top: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    border-left: none;
 }
 
 .footer1Content__form__button{
