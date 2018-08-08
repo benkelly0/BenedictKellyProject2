@@ -448,7 +448,11 @@ a {
   background: #da331d; }
 
 .flickity-prev-next-button.previous {
-  left: 15%;
+  left: 14%;
+  top: 12%; }
+
+.flickity-prev-next-button.next {
+  right: 14%;
   top: 12%; }
 
 .eventsContent__fig {
