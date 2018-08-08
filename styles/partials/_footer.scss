@@ -79,6 +79,7 @@
 
 .footer1Content__pics__fig__img{
     display: block;
+    width: 100%;
 }
 
 .footer2Content{
@@ -96,6 +97,7 @@
 
 .nav__ul--footer{
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer2Content__text{
@@ -103,4 +105,33 @@
     padding-bottom: 20px;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
+}
+
+@media (max-width: 1170px){
+    .navIcons{
+        top: 0;
+        right: 5%;
+    }
+}
+
+@media (max-width: 890px){
+    .section--footer1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer1Content{
+        flex-basis: 100%;
+        margin-bottom: 50px;
+    }
+    .nav--footer{
+        width: 100%;
+    }
+    .nav__ul--footer{
+        justify-content: center;
+    }
+    .nav__ul__li--footer{
+        padding: 10px;
+    }
 }

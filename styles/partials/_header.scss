@@ -29,6 +29,7 @@
     flex-direction: column;
     min-height: 500px;
     justify-content: center;
+    text-align: center;
 }
 
 .heading1--header{
@@ -38,4 +39,33 @@
 .button--header{
     max-width: 150px;
     margin-top: 20px;
+}
+
+@media (max-width: 890px){
+    .headerFlex{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .heading2--header{
+        justify-content: center;
+    }
+
+    .nav--header{
+        width: 100%;
+        flex-basis: 0;
+    }
+
+    .nav__ul--header{
+        justify-content: center;
+    }
+
+    .nav__ul__li--header{
+        padding: 10px;
+    }
+
+    .header2{
+        align-items: center;
+    }
 }

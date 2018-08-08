@@ -14,7 +14,7 @@
 }
 
 .aboutContent1__fig{
-    flex-basis: 140px;
+    flex-basis: 136px;
     margin: 30px;
     text-align: center;
 }
@@ -102,6 +102,7 @@
 
 .eventsContent__fig{
     position: relative;
+    flex-basis: 33.33%;
 }
 
 .eventsContent__fig:hover .eventsContent__fig__cap{
@@ -111,6 +112,7 @@
 .eventsContent__fig__img{
     display: block;
     height: 100%;
+    width: 100%;
 }
 
 .eventsContent__fig__cap{
@@ -160,12 +162,14 @@
 }
 
 .iconsContentComplete{
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .iconsContent{
-    flex-basis: 20%;
+    flex-basis: 250px;
     text-align: center;
+    margin-bottom: 50px
 }
 
 .iconsContent__icons{
@@ -196,4 +200,51 @@
     color:  #da331d;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
+}
+
+@media (max-width: 1153px){
+    .eventsContent__fig__cap__text{
+        display: none;
+    }
+
+}
+
+@media (max-width: 890px){
+    .aboutContent{
+        flex-direction: column;
+    }
+    .eventsContent__fig__cap__heading{
+        font-size: 2rem;
+    }
+    .servicesContent__text{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .servicesContent__fig{
+        flex-basis: 50%;
+        margin-bottom: 30px;
+    }
+    .servicesContent__fig__img{
+        width: 100%;
+    }
+    .blogContent{
+        justify-content: space-around;
+    }
+    .blogContent__fig{
+        flex-basis: 40%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 690px){
+    .blogContent{
+        justify-content: center;
+        align-items: center;
+    }
+    .blogContent__fig{
+        flex-basis: 100%;
+    }
+    .blogContent__fig__img{
+        width: 100%;
+    }
 }
