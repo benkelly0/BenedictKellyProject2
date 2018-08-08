@@ -170,26 +170,28 @@
             </div>
         </section>
 
-        <section class="section section--icons flex">
-            <div class="iconsContent">
-                <span class="iconsContent__icons"><i></i></span>
-                <h3 class="iconsContent__heading heading3">16</h3>
-                <p class="iconsContent__text text text--large">Years Open</p>
-            </div>
-            <div class="iconsContent">
-                <span class="iconsContent__icons"><i></i></span>
-                <h3 class="iconsContent__heading heading3">180</h3>
-                <p class="iconsContent__text text text--large">Happy Customers</p>
-            </div>
-            <div class="iconsContent">
-                <span class="iconsContent__icons"><i></i></span>
-                <h3 class="iconsContent__heading heading3">12</h3>
-                <p class="iconsContent__text text text--large">World Class Cooks</p>
-            </div>
-            <div class="iconsContent">
-                <span class="iconsContent__icons"><i></i></span>
-                <h3 class="iconsContent__heading heading3">55</h3>
-                <p class="iconsContent__text text text--large">Awards</p>
+        <section class="section section--icons">
+            <div class="wrapper iconsContentComplete flex">
+                <div class="iconsContent">
+                    <span class="iconsContent__icons"><i class="fas fa-check-square"></i></span>
+                    <h3 class="iconsContent__heading heading3">16</h3>
+                    <p class="iconsContent__text text text--large">Years Open</p>
+                </div>
+                <div class="iconsContent">
+                    <span class="iconsContent__icons"><i class="fas fa-smile"></i></span>
+                    <h3 class="iconsContent__heading heading3">180</h3>
+                    <p class="iconsContent__text text text--large">Happy Customers</p>
+                </div>
+                <div class="iconsContent">
+                    <span class="iconsContent__icons"><i class="fas fa-calendar"></i></span>
+                    <h3 class="iconsContent__heading heading3">12</h3>
+                    <p class="iconsContent__text text text--large">World Class Cooks</p>
+                </div>
+                <div class="iconsContent">
+                    <span class="iconsContent__icons"><i class="fas fa-trophy"></i></span>
+                    <h3 class="iconsContent__heading heading3">55</h3>
+                    <p class="iconsContent__text text text--large">Awards</p>
+                </div>
             </div>
         </section>
 
@@ -200,21 +202,21 @@
                     <img class="blogContent__fig__img" src="assets/image-12.jpeg" alt="Photo of a steak">
                     <figcaption class="blogContent__fig__cap">
                         <h4 class="blogContent__fig__cap__heading heading4">Popular Steak Cuts</h4>
-                        <a class="blogContent__fig__cap__link" href="#">read more <i></i></a>
+                        <a class="blogContent__fig__cap__link" href="#">read more <i class="fas fa-angle-double-right"></i></a>
                     </figcaption>
                 </figure>
                 <figure class="blogContent__fig">
                     <img class="blogContent__fig__img" src="assets/image-13.jpeg" alt="Photo of a perfectly laid table">
                     <figcaption class="blogContent__fig__cap">
                         <h4 class="blogContent__fig__cap__heading heading4">Reservations are Booming!</h4>
-                        <a class="blogContent__fig__cap__link" href="#">read more <i></i></a>
+                        <a class="blogContent__fig__cap__link" href="#">read more  <i class="fas fa-angle-double-right"></i></a>
                     </figcaption>
                 </figure>
                 <figure class="blogContent__fig">
                     <img class="blogContent__fig__img" src="assets/image-14.jpeg" alt="Photo of people cheersing their drinks">
                     <figcaption class="blogContent__fig__cap">
                         <h4 class="blogContent__fig__cap__heading heading4">Wine Tasting Events</h4>
-                        <a class="blogContent__fig__cap__link" href="#">read more <i></i></a>
+                        <a class="blogContent__fig__cap__link" href="#">read more  <i class="fas fa-angle-double-right"></i></a>
                     </figcaption>
                 </figure>
             </div>
@@ -225,25 +227,26 @@
         <nav class="navIcons">
             <ul class="navIcons__ul">
                 <li class="navIcons__ul__li">
-                    <a class="navIcons__ul__li__link" href="#"><i></i></a>
+                    <a class="navIcons__ul__li__link" href="#"><i title="Facebook" class="fab fa-facebook"></i></a>
                 </li>
                 <li class="navIcons__ul__li">
-                    <a class="navIcons__ul__li__link" href="#"><i></i></a>
+                    <a class="navIcons__ul__li__link" href="#"><i title="Instagram" class="fab fa-instagram"></i></a>
                 </li>
                 <li class="navIcons__ul__li">
-                    <a class="navIcons__ul__li__link" href="#"><i></i></a>
+                    <a class="navIcons__ul__li__link" href="#"><i title="Pinterest" class="fab fa-pinterest-p"></i></a>
                 </li>
             </ul>
         </nav>
         <section class="wrapper section section--footer1 flex">
             <div class="footer1Content">
                 <h3 class="footer1Content__heading heading3">Contact</h3>
-                <a class="footer1Content__link" href="#"><i></i>info@hackeryou.com</a>
-                <a class="footer1Content__link" href="#"><i></i>123-456-7890</a>
-                <a class="footer1Content__link" href="#"><i></i>Toronto, Ontario</a>
-                <form class="footer1Content__form" action="">
-                    <label class="footer1Content__form__label" for=""></label>
-                    <input class="footer1Content__form__input" type="text">
+                <p class="footer1Content__p"><a class="footer1Content__p__link" href="#"><i class="far fa-envelope"></i> info@hackeryou.com</a></p> 
+                <p class="footer1Content__p"><a class="footer1Content__p__link" href="#"><i class="fas fa-phone"></i> 123-456-7890</a></p>
+                <p class="footer1Content__p"><a class="footer1Content__p__link" href="#"><i class="fas fa-map-marker-alt"></i> Toronto, Ontario</a></p>
+                <form class="footer1Content__form" action="http://www.focuspocus.io/magic/cb7ec415798f5206a9be94699596ce6d" method="POST" name="email">
+                    <label class="footer1Content__form__label visuallyhidden" for="email">your email</label>
+                    <input class="footer1Content__form__input" type="email" name="email" id="email" placeholder="your email">
+                    <button class="footer1Content__form__button"><i class="fas fa-paper-plane"></i></button>
                 </form>
             </div>
             <div class="footer1Content">
@@ -253,7 +256,7 @@
             </div>
             <div class="footer1Content">
                 <h3 class="footer1Content__heading heading3">instagram</h3>
-                <div class="footer1Content__pics">
+                <div class="footer1Content__pics flex">
                     <figure class="footer1Content__pics__fig">
                         <img class="footer1Content__pics__fig__img" src="assets/image-15.jpeg" alt="Photo of a plate of food on a table">
                     </figure>
@@ -283,7 +286,7 @@
         </section>
 
         <section class="wrapper section section--footer2">
-                <div class="footer2Content">
+                <div class="footer2Content flex">
                     <h2 class="footer2Content__heading heading2">restaurant</h2>
                     <nav class="nav nav--footer">
                         <ul class="nav__ul nav__ul--footer flex">

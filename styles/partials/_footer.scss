@@ -1,0 +1,106 @@
+.footer{
+    background-color:  #2a2a2a;
+    color: #ffffff;
+    position: relative;
+}
+
+.navIcons{
+    position: absolute;
+    right: 2%;
+    top: 40%;
+}
+
+.navIcons__ul__li{
+    padding: 50%;
+}
+
+.navIcons__ul__li__link{
+    font-size: 2.5rem;
+    padding: 50%;
+    color:  #848484;
+}
+
+.section--footer1{
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.footer1Content{
+    flex-basis: 30%;
+}
+
+.footer1Content__heading{
+    padding-bottom: 40px;
+}
+
+.footer1Content__p{
+    padding: 5px 0;
+}
+
+.footer1Content__p__link{
+    color: #ffffff;
+}
+
+.footer1Content__form{
+    margin-top: 20px;
+}
+
+.footer1Content__form__input{
+    background: #2a2a2a;
+    border-top: 1px solid #ffffff;
+    border-right: none;
+    border-bottom: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    padding: 5px 0 5px 15px;
+    color: #ffffff;
+}
+
+.footer1Content__form__button{
+    background: #2a2a2a;
+    color: #ffffff;
+    border-top: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    border-left: none;
+    height: 34px;
+    padding-right: 5px;
+    margin-left: -5px;
+}
+
+.footer1Content__pics{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer1Content__pics__fig{
+    flex-basis: 21%;
+    margin-bottom: 5%;
+}
+
+.footer1Content__pics__fig__img{
+    display: block;
+}
+
+.footer2Content{
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer2Content__heading{
+    padding-bottom: 20px;
+}
+
+.nav--footer{
+    width: 60%;
+}
+
+.nav__ul--footer{
+    justify-content: space-between;
+}
+
+.footer2Content__text{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}

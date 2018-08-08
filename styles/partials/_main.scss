@@ -154,3 +154,46 @@
     margin: 30px 0;
 }
 
+.section--icons{
+    background: #e5bf4b;
+    padding: 100px 0;
+}
+
+.iconsContentComplete{
+    justify-content: space-around;
+}
+
+.iconsContent{
+    flex-basis: 20%;
+    text-align: center;
+}
+
+.iconsContent__icons{
+    font-size: 5rem;
+}
+
+.section--blog{
+    text-align: center;
+}
+
+.blogContent{
+    text-align: left;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.blogContent__fig{
+    flex-basis: 30%;
+}
+
+.blogContent__fig__cap__heading{
+    padding: 10px 0;
+}
+
+.blogContent__fig__cap__link{
+    text-transform: uppercase;
+    color:  #da331d;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
