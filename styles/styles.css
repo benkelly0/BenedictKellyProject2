@@ -280,8 +280,7 @@ a {
   min-height: 500px;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
-  text-align: center; }
+  justify-content: center; }
 
 .heading1--header {
   margin-bottom: 10px; }
@@ -299,6 +298,8 @@ a {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
+  .header2 {
+    text-align: center; }
   .heading2--header {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
