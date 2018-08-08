@@ -84,6 +84,10 @@
     padding-bottom: 40px;
 }
 
+.reviewsContent__fig{
+    width: 100%;
+}
+
 .reviewsContent__fig__cap{
     padding: 50px 0;
 }
@@ -98,6 +102,10 @@
 
 .section--events{
     text-align: center;
+}
+
+.flickCell{
+    width: 100%;
 }
 
 .eventsContent__fig{
@@ -201,6 +209,8 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
 }
+
+// ========== MEDIA QUERIES ==========
 
 @media (max-width: 1153px){
     .eventsContent__fig__cap__text{

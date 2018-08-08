@@ -400,6 +400,9 @@ a {
   color: #d2cfcf;
   padding-bottom: 40px; }
 
+.reviewsContent__fig {
+  width: 100%; }
+
 .reviewsContent__fig__cap {
   padding: 50px 0; }
 
@@ -411,6 +414,9 @@ a {
 
 .section--events {
   text-align: center; }
+
+.flickCell {
+  width: 100%; }
 
 .eventsContent__fig {
   position: relative;
